@@ -1,0 +1,76 @@
+{
+  "questions": [
+    {
+      "questionId": 1,
+      "questionName": "If you were a vegetable, what vegetable would you be?",
+      "answers": [
+        "Apple",
+        "Orange",
+        "Carrot",
+        "Pineapple"
+      ]
+    },
+    {
+      "questionId": 2,
+      "questionName": "What is your theme song?",
+      "answers": [
+        "Nokia 3310",
+        "Sony Ericcsson KP550J",
+        "Sony Xperia XA1",
+        "Lenovo Idepad Y700"
+      ]
+    },
+    {
+      "questionId": 3,
+      "questionName": "What's the worst movie you've ever seen?",
+      "answers": [
+        "Harry Potter",
+        "One Night in Bangkok",
+        "D-Day",
+        "The Dunkirk"
+      ]
+    },
+    {
+      "questionId": 4,
+      "questionName": "What is your favourite JavaScript Framework or Library?",
+      "answers": [
+        "Nest.js",
+        "React.js",
+        "Ember.js",
+        "Vue.js"
+      ]
+    },
+    {
+      "questionId": 5,
+      "questionName": "What stands for BEM?",
+      "answers": [
+        "Block-Element-Model",
+        "Block-Element-Modifier",
+        "Bachler of Engineering of Mines",
+        "British-Empire-Medal"
+      ]
+    }
+  ],
+  "correctAnswers": [
+    {
+      "questionId": 1,
+      "correctAnswer": "Carrot"
+    },
+    {
+      "questionId": 2,
+      "correctAnswer": "Nokia 3310"
+    },
+    {
+      "questionId": 3,
+      "correctAnswer": "Harry Potter"
+    },
+    {
+      "questionId": 4,
+      "correctAnswer": "React.js"
+    },
+    {
+      "questionId": 5,
+      "correctAnswer": "Block-Element-Modifier"
+    }
+  ]
+}

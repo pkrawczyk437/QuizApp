@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* reset styles */
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: 1.125rem 'Roboto', sans-serif
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.quiz, .score {
+    width: 600px;
+    box-shadow: 0 0 20px 2px rgb(100 100 100 / 10%);
+    border-radius: .625rem;
+}
+
+.quiz__submitBtn,
+.score__restartBtn {
+    padding: .5rem;
+    border: 0;
+    background-color: #333333;
+    color: #ffffff;
+    cursor: pointer;
+    opacity: .7;
+    transition: opacity .2s ease-in-out;
+}
+
+.quiz__submitBtn:hover,
+.score__restartBtn:hover {
+    opacity: 1;
+}
+
+.quiz--hidden,
+.errorMessage {
+    display: none;
+}
+
+.quiz__title {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.quiz__answers {
+    padding: 1.5rem;
+}
+
+.quiz__answer {
+    margin: .5rem;
+}
+
+.quiz__submitBtn {
+    width: 100%;
+    border-radius: 0 0 .5rem .5rem;
+}
+
+.errorMessage {
+    color: red;
+    margin-top: 1rem;
+}
+
+.errorMessage--active {
+    display: block;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+}
+
+.score__restartBtn {
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+}
