@@ -12,7 +12,8 @@ Simple and constantly developed Quiz App written in HTML + CSS + JavaScript
 ## Used packages
 
 [json-server](https://github.com/typicode/json-server)\
-[live-server](https://github.com/typicode/json-server)
+[live-server](https://github.com/tapio/live-server)\
+[axios](https://github.com/axios/axios)
 
 
 ## Installation
