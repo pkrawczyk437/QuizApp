@@ -24,9 +24,6 @@ Simple and constantly developed Quiz App written in HTML + CSS + JavaScript
 ```
     
 ## How to run app?
-
-* Go into src directory
-
 ```bash
   cd src
   npm start or json-server --watch db/db.json
