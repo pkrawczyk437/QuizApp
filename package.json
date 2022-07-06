@@ -2,14 +2,16 @@
   "name": "quizapp",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch db.json"
+    "start": "json-server --watch db/db.json"
   },
   "author": "Przemek Krawczyk",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "json-server": "^0.17.0",
+    "live-server": "^1.1.0"
   }
 }
