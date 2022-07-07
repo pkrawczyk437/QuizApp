@@ -1,15 +1,26 @@
 {
-  "name": "quizapp",
-  "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "json-server --watch db.json"
-  },
-  "author": "Przemek Krawczyk",
-  "license": "ISC",
-  "dependencies": {
-    "json-server": "^0.17.0"
-  }
+	"name": "quizapp",
+	"version": "1.0.0",
+	"description": "Simple and constantly developed Quiz App written in HTML + CSS + JavaScript",
+	"main": "src/js/app.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "json-server --watch db/db.json",
+		"server": "node ./node_modules/.bin/live-server"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pkrawczyk437/QuizApp.git"
+	},
+	"author": "Przemek Krawczyk",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/pkrawczyk437/QuizApp/issues"
+	},
+	"homepage": "https://github.com/pkrawczyk437/QuizApp#readme",
+	"dependencies": {
+		"json-server": "^0.17.0",
+		"live-server": "^1.2.2"
+	}
 }
